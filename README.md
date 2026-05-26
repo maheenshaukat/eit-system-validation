@@ -1,10 +1,17 @@
 # Low-Cost Electrical Impedance Tomography System Validation
+> Experimental validation of a low-cost 16-electrode Electrical Impedance Tomography (EIT) system using homogeneous phantom measurements and FEM-based reconstruction.
+![MATLAB](https://img.shields.io/badge/MATLAB-R2023a-orange)
+![EIDORS](https://img.shields.io/badge/EIDORS-v3.12-blue)
+![Status](https://img.shields.io/badge/status-active_success-success)
+![License](https://img.shields.io/badge/license-MIT-green)
 ## Overview
-This project presents the experimental validation of a low-cost 16-electrode Electrical Impedance Tomography (EIT) system developed for biomedical imaging and computational reconstruction studies.
+## Research Objective
+This work aims to experimentally validate a low-cost Electrical Impedance Tomography (EIT) system for biomedical imaging applications and evaluate reconstruction stability using FEM-based inverse modeling and signal processing techniques.
+
 The system integrates:
 - Arduino-based sinusoidal excitation
 - 16-channel multiplexer switching
-- Circular "Stainless steel electrodes 
+- Circular stainless steel electrodes 
 - FEM-based reconstruction using EIDORS
 - Signal processing and noise analysis in MATLAB
 ---
@@ -32,6 +39,7 @@ Analysis performed:
 - Signal-to-noise ratio (SNR) estimation
 - Voltage heatmap generation
 - Reconstruction stability analysis
+  
 ---
 ## Results
 The system successfully reconstructed conductivity distributions from experimentally acquired voltage measurements using a low-cost experimental setup.
@@ -41,8 +49,9 @@ Current outputs include:
 - Voltage heatmaps
 - FFT spectrum plots
 - SNR analysis
-- Mean SNR: 23.0 dB across all 16 electrodes
+-  Mean SNR: 23.0 dB (16 electrodes)
 - Reciprocity error: 7.64%
+  
 ---
 ## Future Work
 Planned future work includes:
@@ -61,6 +70,16 @@ Planned future work includes:
 /docs      -> Research documentation  
 
 ---
+## Reproducibility
+To reproduce the reconstruction pipeline:
+1. Import experimental voltage datasets from `/data`
+2. Run MATLAB preprocessing and signal analysis scripts
+3. Load FEM models using EIDORS v3.12
+4. Perform inverse reconstruction using the Gauss-Newton solver
+5. Generate conductivity maps and analysis plots
+All reconstruction and analysis scripts are available in the `/matlab` directory.
+
+---
 ## Tools and Technologies
 - MATLAB
 - EIDORS
@@ -71,6 +90,11 @@ Planned future work includes:
 ---
 ## Author
 Maheen Shaukat
-Supervisor Dr. Naima amin
+Supervisor Dr. Naima Amin
 
+---
+## References
 Adler A, Lionheart WRB. Uses and abuses of EIDORS. Physiol Meas. 2006;27(5):S25–S42.
+
+## Citation Policy
+If you use this work, please cite the repository or associated publication (if available). For code usage, please reference the GitHub repository.
