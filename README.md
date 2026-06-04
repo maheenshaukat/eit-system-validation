@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/status-active_success-success)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ## Overview
-## Research Objective
+
 This work aims to experimentally validate a low-cost Electrical Impedance Tomography (EIT) system for biomedical imaging applications and evaluate reconstruction stability using FEM-based inverse modeling and signal processing techniques.
 
 The system integrates:
@@ -97,4 +97,4 @@ Supervisor Dr. Naima Amin
 Adler A, Lionheart WRB. Uses and abuses of EIDORS. Physiol Meas. 2006;27(5):S25–S42.
 
 ## Citation Policy
-If you use this work, please cite the repository or associated publication (if available). For code usage, please reference the GitHub repository.
+If you use this work, please cite the repository or associated publication. For code usage, please reference the GitHub repository.
