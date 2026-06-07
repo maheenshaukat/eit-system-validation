@@ -94,7 +94,7 @@ Supervisor Dr. Naima Amin
 
 ---
 ## References
-Adler A, Lionheart WRB. Uses and abuses of EIDORS. Physiol Meas. 2006;27(5):S25–S42.
+Development A Low-Cost Electrical Impedance Tomography System For Non-Invasively Detecting Abnormal In Breast Tissue - Phantom. Kalpa Publications in Engineering. Volume 4, 2022. Proceedings of International Symposium on Applied Science 2021, Pages 1–8.
 
 ## Citation Policy
 If you use this work, please cite the repository or associated publication. For code usage, please reference the GitHub repository.
