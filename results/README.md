@@ -9,5 +9,5 @@ Current files:
   Matrix of |Vij - Vji| used for reciprocity validation.
 - `Reciprocity_Error_Summary.csv`  
   Summary statistics of reciprocity error across electrodes.
-- `SNR_Results.xlsx`  
+- `SNR_Results.csv`  
   Signal-to-noise ratio results computed per electrode pair.
